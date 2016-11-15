@@ -46,6 +46,9 @@ It is meta-tags that make it so you can properly share your page onto other page
 E.g on facebook, if I share it, instead of it just being a link, there will be a title, a small description and an image.
 I added the name of the page, a small description and a funny image, just as a test.
 
+This is how mine will present itself:
+<img src="http://i.imgur.com/rbzODJK.png?1">
+
 
 
 {% if page.comments %}
