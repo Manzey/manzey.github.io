@@ -51,7 +51,7 @@ This is how mine will present itself:
 
 
 
-{% if page.comments %}
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -71,5 +71,5 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-{% endif %}
+
 
