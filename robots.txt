@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /_posts/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_sass/
+Disallow: about.md
