@@ -1,0 +1,214 @@
+html {
+    background: url(../image/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    background: url(../image/footerbg.png);
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 3px ridge #FFFFFF;
+}
+#desktop {
+    height: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.grow {
+    padding-left: 5px;
+    padding-top: 5px;
+    transition: all .2s ease-in-out;
+    height: 80%;
+    width: 2%;
+}
+
+.grow:hover {
+    transform: scale(1.4);
+}
+
+.removed {
+    visibility: hidden;
+}
+
+.add {
+    visibility: visible !important;
+}
+
+.blockRemove {
+    display: none !important;
+}
+
+.blockAdd {
+    display: block !important;
+}
+
+.inlineAdd {
+    display: inline !important;
+}
+
+/*Window css start */
+
+#windowDiv2, .chatWinDivHead {
+    height: 10%;
+    width: 100%;
+    position:static;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+18 */
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 18%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 18%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 18%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+#windowDiv, .chatWinDiv {
+    height: 40%;
+    width: 15%;
+    position:relative; /* important (all position that's not `static`) */
+    color: white;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    -webkit-box-shadow:inset 0px 0px 0px 1px black;
+    -moz-box-shadow:inset 0px 0px 0px 1px black;
+    box-shadow:inset 0px 0px 0px 1px black;
+}
+
+#titleImage {
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+#closeButton {
+    float: right;
+    margin-right: 5%;
+    padding-top: 3%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#closeButton:hover {
+    color: darkred;
+    cursor: hand;
+}
+
+/* Window css end */
+
+/* Memory css start */
+#memory {
+    margin-left: 10%;
+
+}
+
+#memory img {
+    width: 20%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#triesLeft {
+    margin-left: 60%;
+}
+
+#memLose, #memWin {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Memory css end */
+
+/* HighLow css start */
+
+#highLow {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#highLowImage {
+    display: none;
+    width: 50%;
+}
+
+#attempt {
+    bottom: 0;
+}
+
+#reset {
+    display: none;
+}
+
+/* HighLow css end */
+
+/* Chat css start */
+
+#chatform {
+    margin-top: 5%;
+    bottom: 0;
+
+}
+
+
+#sendinput {
+    width: 80%;
+
+}
+
+#send {
+    float: right;
+    width: 20%;
+}
+
+#chatbox {
+    background: rgba(255,255,255,0.5);
+    color: black;
+    margin: 0 auto;
+    margin-top: 1%;
+    height: 70%;
+    width: 95%;
+    overflow-y: scroll;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#chat {
+    display: none;
+}
+
+#usernameInput, #serverInput, #channelInput {
+    display: block;
+    margin: 0 auto;
+}
+
+#userNameSend {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
+}
+
+/* Chat css end */
