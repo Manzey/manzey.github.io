@@ -5,4 +5,4 @@ permalink: /projects/
 ---
 
 On this page I will post and link to all my future projects and exercises!<br>
-<a href="../PWD/index.html">- Personal Web Desktop</a>
+<a href="../desktop/index.html">- Personal Web Desktop</a>
