@@ -7,3 +7,4 @@ permalink: /projects/
 On this page I will post and link to all my future projects and exercises!
 <a href="client/source/index.html">AAAA</a>
 <a href="client/source/index.html">bbbb</a>
+<a href="client/debug/index.html">Personal Web Desktop</a>
