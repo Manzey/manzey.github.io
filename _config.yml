@@ -1,11 +1,11 @@
 # Site settings
-title: David Larsson - dl222is
-email: dl222is@student.lnu.se
+title: David Larsson
+email: manzey@hotmail.se
 description: > # this means to ignore newlines until "baseurl:"
-  Frontpage for David Larsson's different assignments.
+  Gathering page for different stuff created by David Larsson.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: Dassmoppen
+twitter_username: N/A
 github_username:  Manzey
 
 # Build settings
