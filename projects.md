@@ -11,6 +11,8 @@ This is my Personal Web Desktop that I made during my first year whilst studying
 It was created for the purpose of widening my knowledge about JavaScript and working with the DOM - aswell as understanding
 how the browser works and operates.
 
+NOTE: Chat-application is disabled, due to SSL-issues.
+
 ## [Colorify](https://chrome.google.com/webstore/detail/colorify/khmkbmhcijchhbnbaadifbfjljkgfhhc?hl=sv)
 This is my chrome plugin that I created during my first year at the Linnaeus University.
 The plugin is a color assistance tool for Google Chrome - the main goal with it to help colorblind people when working
