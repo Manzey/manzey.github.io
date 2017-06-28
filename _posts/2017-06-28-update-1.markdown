@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Project Updates"
+comments: true
+date:   2017-06-28 18:45
+
+categories: jekyll update
+---
+
+## Project Update
+I've updated the list of projects to look more appealing, aswell as added another application!
+More to come!
