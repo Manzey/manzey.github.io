@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Welcome!"
+date: 2017-07-03
+categories:
+---
+
+## Welcome
+Welcome to my collection page of my future projects and applications!
+I will be storing the work I consider presentable here.
+Both as a way to show off my work if necessary, aswell as gathering it for the future.
