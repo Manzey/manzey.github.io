@@ -1,0 +1,89 @@
+body {
+    background: lightgreen;
+}
+
+#header {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 300%;
+    background: slategray;
+    width: 300px;
+}
+
+#myCanvas {
+    cursor: crosshair;
+}
+
+#whiteboard-wrapper {
+    margin: 0 auto;
+    margin-top: 1%;
+    width: 800px;
+    height: 600px;
+}
+
+#whiteboard {
+
+    background: gray;
+    width: 800px;
+    height: 600px;
+    border-style: ridge;
+    border-color: green;
+    border-width: 10px;
+}
+
+#buttonpanel {
+    background: slategray;
+    width: 800px;
+    border-top: ridge;
+    border-left: ridge;
+    border-right: ridge;
+    border-color: green;
+    border-width: 10px;
+}
+
+.menuicon:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+}
+
+#colorpick {
+    float: right;
+    height: 40px;
+}
+
+#lineselection {
+    background: white;
+    width: 125px;
+    height: 135px;
+    display: none;
+    z-index: 666;
+    position: absolute;
+}
+
+.lines {
+    height: 45px;
+    width: 125px;
+    border-top: ridge;
+    border-left: ridge;
+    border-right: ridge;
+    border-bottom: ridge;
+    border-width: 3px;
+}
+
+.lines:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    border: ridge;
+    border-width: 3px;
+
+}
+

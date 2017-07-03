@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='js/extra/spectrum.js'></script>
+    <link rel='stylesheet' href='js/extra/spectrum.css' />
+    <script src="javascript/build.js"></script>
+    <link rel="stylesheet" href="stylesheet/style.css"/>
+
+</head>
+
+<body>
+    <div id="header">Whiteboard</div>
+        <div id="whiteboard-wrapper">
+            <div id="buttonpanel">
+                <img class="menuicon" id="backgroundicon" src="image/backgroundicon.png" alt="background icon">
+                <img class="menuicon" id="downloadicon" src="image/downloadicon.png" alt="download icon">
+                <img class="menuicon" id="linesicon" src="image/linesicon.png" alt="lines icon">
+                <div id="lineselection">
+                    <img id="line1" class="lines" src="image/line1.png">
+                    <img id="line2" class="lines" src="image/line2.png">
+                    <img id="line3" class="lines" src="image/line3.png">
+                </div>
+                <img class="menuicon" id="clearicon" src="image/clearicon.png" alt="clear icon">
+                <input id="colorpick" type="color" class="basic" value="#1f4ff1">
+            </div>
+            <div id="whiteboard">
+                <canvas id="myCanvas" width="800" height="600">
+                    <p>Sorry, your browser does not support Canvas - you can not utilize the whiteboard properly.</p>
+                </canvas>
+            </div>
+        </div>
+</body>
+
+
+</html>
