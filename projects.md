@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 On this page I will post and link to all my future projects and applications!
-All the titles below are clickable links, click them and they redirect you to the project/application.  
+All the titles below are clickable links, click them and they redirect you to the project/application.
 
 ## [>Personal Web Desktop<](../projects/pwd)
 This is my Personal Web Desktop that I made during my first year whilst studying at the Linnaeus University.
